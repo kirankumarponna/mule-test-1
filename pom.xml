@@ -12,10 +12,13 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.3.0-20210427</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
-	<munit.version>2.2.1</munit.version>
+		<munit.version>2.2.1</munit.version>
+	    
+		<sonar.projectKey>kiran-enq_mule-test</sonar.projectKey>
+		<sonar.organization>kiran-enq</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
 	<build>
